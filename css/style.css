@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --largewidth: 1200px;
+    --mediumwidth: 1000px;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    min-height: 80px;
+}
+
+.hero{
+    min-height: 740px;
+    background-color: #b4d0e7;
+}
+
+.hero .container{
+    height: 740px;
+    width: 62.5%;
+    max-width: var(--largewidth);
+    margin: 0 auto;
+    background-color: #973434;
+}
+
+.business-plans{
+    min-height: 1670px;
+    background-color: rgb(170, 149, 149);
+}
+
+.find-partner{
+    min-height: 670px;
+    background-color: rgb(91, 61, 61);
+}
+
+.operations{
+    min-height: 1280px;
+    background-color: rgb(170, 149, 149);
+}
+
+.company-coverage{
+    min-height: 1095px;
+    background-color: rgb(57, 98, 31);
+}
+
+.free-trial{
+    min-height: 360px;
+    background-color: #b4d0e7;
+}
+
+.faq{
+    min-height: 725px;
+    background-color: rgb(125, 69, 174);
+}
+
+footer{
+    min-height: 570px;
+    background-color: black;
+}
