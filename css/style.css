@@ -13,6 +13,8 @@ body {
   height: 100vh;
 }
 
+/* header style */
+
 header {
   min-height: 80px;
   background-color: white;
@@ -66,9 +68,9 @@ nav{
   padding-right: 1.3rem;
 }
 
-.btn-container button{
+.btn-container .btn_small{
   font-size: 16px;
-  padding: .4rem .8rem;
+  padding: .4rem .7rem;
   color: white;
   background-color: var(--lightblue);
   border: none;
@@ -79,17 +81,71 @@ nav{
   display: flex;
 }
 
+/* Main Style */
+/* hero section */
+
 .hero {
   min-height: 740px;
   background-color: #b4d0e7;
 }
 
 .hero .container {
-  height: 740px;
+  min-height: 740px;
   width: 62.5%;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #973434;
+  padding-top: 100px;
+}
+
+.container h1{
+  font-size: 80px;
+  padding-bottom: 50px;
+}
+
+.hero_content{
+  display: flex;
+  align-items: stretch;
+}
+
+.hero_content .col{
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.col .hero_text{
+  line-height: 21px;
+}
+
+.hero_content .col:nth-child(1){
+  min-width: 30%;
+}
+
+.hero_content .col:nth-child(2){
+  min-width: 70%;
+  position: relative;
+}
+
+.hero_content .col:nth-child(2) img{
+  width: 105%;
+  max-height: 475px;
+  object-fit: contain;
+  position: absolute;
+  bottom: -80px;
+  left: 0px;
+}
+
+.btn_large{
+  font-size: 16px;
+  padding: .7rem .9rem;
+  color: white;
+  background-color: var(--lightblue);
+  border: none;
+}
+
+.col i{
+  margin-top: 2.7rem;
+  font-size: 45px;
 }
 
 .business-plans {
