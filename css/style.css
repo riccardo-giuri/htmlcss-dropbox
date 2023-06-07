@@ -1,67 +1,128 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root{
-    --largewidth: 1200px;
-    --mediumwidth: 1000px;
+  --lightblue: #0061ff;
 }
 
-body{
-    height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    width: 100%;
-    min-height: 80px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
 }
 
-.hero{
-    min-height: 740px;
-    background-color: #b4d0e7;
+header {
+  min-height: 80px;
+  background-color: white;
 }
 
-.hero .container{
-    height: 740px;
-    width: 62.5%;
-    max-width: var(--largewidth);
-    margin: 0 auto;
-    background-color: #973434;
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
 }
 
-.business-plans{
-    min-height: 1670px;
-    background-color: rgb(170, 149, 149);
+.nav_left{
+  display: flex;
 }
 
-.find-partner{
-    min-height: 670px;
-    background-color: rgb(91, 61, 61);
+.nav_right{
+  display: flex;
 }
 
-.operations{
-    min-height: 1280px;
-    background-color: rgb(170, 149, 149);
+.logo-container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0rem 1.3rem;
 }
 
-.company-coverage{
-    min-height: 1095px;
-    background-color: rgb(57, 98, 31);
+.logo-container img{
+  object-fit: contain;
 }
 
-.free-trial{
-    min-height: 360px;
-    background-color: #b4d0e7;
+.links_left{
+  height: 100%;
+  display: flex;
 }
 
-.faq{
-    min-height: 725px;
-    background-color: rgb(125, 69, 174);
+.link_box{
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
-footer{
-    min-height: 570px;
-    background-color: black;
+.link_box a{
+  text-decoration: none;
+  color: black;
+  padding: 0rem 1.3rem;
+}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+  padding-right: 1.3rem;
+}
+
+.btn-container button{
+  font-size: 16px;
+  padding: .4rem .8rem;
+  color: white;
+  background-color: var(--lightblue);
+  border: none;
+}
+
+.links_right{
+  height: 100%;
+  display: flex;
+}
+
+.hero {
+  min-height: 740px;
+  background-color: #b4d0e7;
+}
+
+.hero .container {
+  height: 740px;
+  width: 62.5%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #973434;
+}
+
+.business-plans {
+  min-height: 1670px;
+  background-color: rgb(170, 149, 149);
+}
+
+.find-partner {
+  min-height: 670px;
+  background-color: rgb(91, 61, 61);
+}
+
+.operations {
+  min-height: 1280px;
+  background-color: rgb(170, 149, 149);
+}
+
+.company-coverage {
+  min-height: 1095px;
+  background-color: rgb(57, 98, 31);
+}
+
+.free-trial {
+  min-height: 360px;
+  background-color: #b4d0e7;
+}
+
+.faq {
+  min-height: 725px;
+  background-color: rgb(125, 69, 174);
+}
+
+footer {
+  min-height: 570px;
+  background-color: black;
 }
