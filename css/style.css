@@ -230,17 +230,20 @@ nav{
   padding-bottom: 1.8rem;
 }
 
-.card-users, .card-space, .card-function{
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+.long-card-content ul{
+  list-style: none;
+  padding-left: 10px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.card-users{
-  padding-top: 4rem;
+.long-card-content ul li{
+  padding-top: .7rem;
+  padding-bottom: .7rem;
 }
 
-.card-functions{
-  padding-bottom: 4rem;
+.long-card-content ul li > i{
+  margin-left: -20px;
 }
 
 .long-card .btn-container{
@@ -256,6 +259,11 @@ nav{
 
 .highlight-points-list ul li{
   padding-bottom: 1.7rem;
+  padding-left: 10px;
+}
+
+.highlight-points-list ul li > i{
+  margin-left: -20px;
 }
 
 .long-card-horizontal{
@@ -353,10 +361,110 @@ nav{
 
 /* company coverage */
 
-.company-coverage {
-  min-height: 1095px;
-  background-color: rgb(57, 98, 31);
+.company-coverage .container{
+  width: 60%;
+  max-width: var(--small-width);
+  margin: 0 auto; 
 }
+
+.company-coverage .container h2{
+  line-height: 52px;
+  padding-bottom: 3rem;
+  padding-top: 4.7rem;
+}
+
+.square-container{
+  display: flex;
+  padding-top: 8rem;
+}
+
+.square-container .box-container{
+  width: calc((100%) / 3);
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.square-container .box-container .box{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box.green_box{
+  background-color: #a2d39b;
+  border: .8rem solid #d1e9cd;
+}
+
+.purple_box{
+  background-color: #61082b;
+}
+
+.light_blue_box{
+  background-color: #0093ce;
+}
+
+.light_red_box{
+  background-color: #ff1c1c;
+}
+
+.light_red_box{
+  background-color: #ff1c1c;
+}
+
+.red_box{
+  background-color: #d5001f;
+}
+
+.sky_box{
+  background-color: #b4d0e7;
+}
+
+.blue_box{
+  background-color: #0d2481;
+}
+
+.yellow_box{
+  background-color: #ffd830;
+}
+
+.box-container .box svg{
+  width: 65%;
+  color: white;
+}
+
+.box-container .title_svg{
+  width: 300px;
+}
+
+.box-container .title_svg svg{
+  width: 100%;
+}
+
+.box-container p{
+  line-height: 25px;
+}
+
+.box-container .line{
+  width: 130px;
+  height: 1px;
+}
+
+.box-container .name{
+  padding-top: 3rem;
+}
+
+.text_box{
+  padding: 4rem;
+}
+
+
+
+
+
 
 /* free trial section */
 
