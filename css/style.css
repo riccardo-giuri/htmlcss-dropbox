@@ -427,7 +427,53 @@ nav{
   border-top: 1px solid #999999;
 }
 
+/* foooter style */
+
 footer {
-  min-height: 570px;
   background-color: black;
+  padding-top: calc(var(--standard-padding) * 1.5) ;
+  padding-bottom: 2.3rem;
+}
+
+footer .container{
+  width: 60%;
+  max-width: var(--large-width);
+  margin: 0 auto;
+
+}
+
+.link-card-container{
+  display: flex;
+  /* min-height: 250px; */
+  padding-bottom: 2rem;
+}
+
+.link-card{
+  width: calc((100%)/5);
+  color: white;
+}
+
+.link-card ul{
+  padding-top: 2.2rem;
+  list-style: none;
+}
+
+.link-card ul li{
+  padding-bottom: 1.2rem;
+}
+
+.link-card ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+footer .container .line{
+  min-width: 7rem; 
+}
+
+.language{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color: #8f9299;
 }
