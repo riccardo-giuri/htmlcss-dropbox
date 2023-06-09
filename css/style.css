@@ -145,36 +145,28 @@ nav{
 
 .business-plans {
   padding-bottom: var(--standard-padding);
+  padding-top: 150px;
 }
 
 .business-plans .container{
-  min-height: 740px;
-  width: 62.5%;
   max-width: 1000px;
   margin: 0 auto;
-  padding-top: 150px;  
-}
-
-.business-plans .container h2{
-  font-size: 40px;
-  padding-bottom: 50px;
 }
 
 .radio-inputs{
   display: flex;
   gap: 2.5rem;
   padding-bottom: 40px;
+  padding-top: 50px;
 }
 
 .long-card-container{
   display: flex;
   flex-wrap: wrap;
-  min-height: 950px;
   gap: 3rem;
 }
 
 .long-card{
-  min-height: 950px;
   flex-basis: 0;
   flex-grow: 1;
   border: 1px solid #ededee;
@@ -190,10 +182,6 @@ nav{
   text-align: center;
   border-bottom: 1px solid #f6f6f6;
   padding: .6rem 0rem;
-}
-
-.long-card h3{
-  font-size: 23px;
 }
 
 .highlight-points-list ul{
@@ -256,16 +244,12 @@ nav{
   width: 100%;
   flex-grow: 1;
   border: 1px solid #ededee;
-} 
+}
 
 .long-card-content .title-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.long-card-content .title-container h3{
-  font-size: 23px;
 }
 
 .long-card-content p{
@@ -281,7 +265,6 @@ nav{
 
 .find-partner .container{
   display: flex;
-  width: 60%;
   max-width: var(--small-width);
   margin: 0 auto;
 }
@@ -350,7 +333,7 @@ nav{
 .company-coverage .container{
   width: 60%;
   max-width: var(--small-width);
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .company-coverage .container a{
@@ -451,11 +434,6 @@ nav{
   padding: 4rem;
 }
 
-
-
-
-
-
 /* free trial section */
 
 .free-trial {
@@ -542,7 +520,6 @@ footer .container{
 
 .link-card-container{
   display: flex;
-  /* min-height: 250px; */
   padding-bottom: 2rem;
 }
 
@@ -566,7 +543,7 @@ footer .container{
 }
 
 footer .container .line{
-  min-width: 7rem; 
+  min-width: 7rem;
 }
 
 .language{
