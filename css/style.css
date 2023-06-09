@@ -26,43 +26,31 @@ h2{
 
 /* header style */
 
-header {
-  min-height: 80px;
-  background-color: white;
-}
-
 nav{
   display: flex;
   justify-content: space-between;
   height: 80px;
 }
 
-.nav_left{
+.nav_info{
   display: flex;
 }
 
-.nav_right{
-  display: flex;
-}
-
-.logo-container{
-  height: 100%;
+.logo_container{
   display: flex;
   align-items: center;
   padding: 0rem 1.3rem;
 }
 
-.logo-container img{
+.logo_container img{
   object-fit: contain;
 }
 
-.links_left{
-  height: 100%;
+.links_container{
   display: flex;
 }
 
 .link_box{
-  height: 100%;
   display: flex;
   align-items: center;
 }
@@ -87,25 +75,19 @@ nav{
   border: none;
 }
 
-.links_right{
-  height: 100%;
-  display: flex;
-}
-
 /* Main Style */
 /* hero section */
 
 .hero {
-  min-height: 740px;
   background-color: #b4d0e7;
 }
 
 .hero .container {
-  min-height: 740px;
   width: 62.5%;
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 100px;
+  padding-bottom: 1rem;
 }
 
 .container h1{
